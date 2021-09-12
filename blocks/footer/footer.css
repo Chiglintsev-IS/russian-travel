@@ -1,0 +1,35 @@
+.footer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 92px 0 24px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  gap: 18px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: hsla(0, 0%, 100%, 1);
+}
