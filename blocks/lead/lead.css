@@ -1,6 +1,9 @@
 .lead {
-  max-width: 90%;
+  width: 90%;
   margin: 56px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .lead__title {
@@ -11,8 +14,8 @@
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
-  margin: 0 auto;
-  max-width: 720px;
+  margin: 0;
+  max-width: 768px;
 }
 
 .lead__subtitle {
@@ -22,12 +25,13 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin: 32px auto 0;
+  margin: 32px 0 0;
   max-width: 640px;
 }
 
 .lead__cover {
-  min-width: 90%;
+  width: 90%;
+  max-width: 984px;
   margin: 56px 0 0;
   display: block;
 }

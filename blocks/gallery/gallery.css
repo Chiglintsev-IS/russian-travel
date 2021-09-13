@@ -5,6 +5,7 @@
   grid-template-columns: repeat(auto-fit, minmax(284px,1fr));
   gap: 14px;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .gallery__item {

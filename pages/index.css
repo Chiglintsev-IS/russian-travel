@@ -31,4 +31,5 @@
   align-items: center;
   row-gap: 92px;
   min-width: 400px;
+  max-width: calc(1184px + 96px);
 }
