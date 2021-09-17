@@ -1,15 +1,16 @@
 .header {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-end;
   margin: 28px 0 0;
+  box-sizing: border-box;
 }
 
 .header__logo {
-  width: 176px;
+  max-width: 176px;
   margin: 0;
   display: block;
 }
@@ -36,4 +37,28 @@
 
 .header__lang-link_status_active {
   text-decoration-line: underline;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc(100% - 32px);
+    margin-top: 16px;
+  }
+
+  .header__logo {
+    max-width: 142px;
+  }
+
 }
