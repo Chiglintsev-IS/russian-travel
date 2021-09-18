@@ -1,5 +1,7 @@
 # Проект: Путешествие по России
 
+[ссылка на Pages](https://chiglintsev-is.github.io/russian-travel/)
+
 ### Обзор
 * Интро
 * Figma
