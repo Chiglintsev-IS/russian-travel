@@ -1,0 +1,7 @@
+.lead__image {
+  max-width: 95%;
+  padding: 10% 2.5% 28%;
+  display: block;
+  background: url("../../../images/lead-bg.jpg");
+  background-size: cover;
+}
