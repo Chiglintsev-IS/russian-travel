@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(root.css);
 @import url(../blocks/page/page.css);
 @import url(../vendor/font-inter/inter.css);
 @import url(../blocks/header/header.css);
@@ -38,3 +37,4 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
+@import url(root.css);
