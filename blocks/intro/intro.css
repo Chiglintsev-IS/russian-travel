@@ -1,12 +1,17 @@
 .intro {
   max-width: 984px;
   align-self: flex-start;
+
+  /*обратился за помощью, старший студент подсказал, что следует сделать паддинг.*/
+  /*сделал паддинг как в макете -- вычел из 148 отступ 48*/
+  padding-left: 100px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 690px;
     align-self: flex-start;
+    padding: 0;
   }
 }
 

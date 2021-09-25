@@ -1,13 +1,12 @@
 .cover {
-  width: 1184px;
-  max-width: 100%;
-  height: calc(0.625 * 1084px);
+  width: 100%;
+  max-width: 1184px;
+  height: calc(0.625 * 100vw);
   background: url("../../images/cover-bg.jpg") center center;
   background-size: cover;
   position: relative;
-  color: hsla(0, 0%, 100%, 1);
   z-index: 1;
-  margin: 92px auto 0;
+  margin: 0 auto;
   box-sizing: border-box;
   display: block;
 }
@@ -28,20 +27,29 @@
   cursor: pointer;
 }
 
-
-
-@media screen and (max-width: 1280px) {
-
+@media screen and (min-width: 1185px) {
+  .cover {
+    height: 740px
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100%;
+    margin-left: -48px;
+    width: calc(100% + 96px);
   }
 }
 
 @media screen and (max-width: 768px) {
+  .cover {
+    margin-left: -24px;
+    width: calc(100% + 48px);
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
+  .cover {
+    margin-left: 0;
+    width: 100%;
+  }
 }
