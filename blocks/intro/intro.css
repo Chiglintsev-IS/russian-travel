@@ -1,51 +1,21 @@
 .intro {
-  max-width: 984px;
-  align-self: flex-start;
-
-  /*обратился за помощью, старший студент подсказал, что следует сделать паддинг.*/
-  /*сделал паддинг как в макете -- вычел из 148 отступ 48*/
-  padding-left: 100px;
+  width: calc(100% - 2 * 100px);
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 690px;
-    align-self: flex-start;
-    padding: 0;
+    width: calc(100% - 2 * 48px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 100%;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    width: calc(100% - 2 * 24px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: calc(100% - 32px);
-  }
-
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .intro__text {
-    font-size: 16px;
-    line-height: 26.08px;
-  }
-
-  .intro__list {
-    margin-top: 34px;
-  }
-
-  .intro__list-item {
-    font-size: 12px;
-    line-height: 18px;
+    width: calc(100% - 2 * 16px);
   }
 }

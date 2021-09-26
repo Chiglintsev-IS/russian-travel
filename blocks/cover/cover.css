@@ -32,24 +32,3 @@
     height: 740px;
   }
 }
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    margin-left: -48px;
-    width: calc(100% + 96px);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    margin-left: -24px;
-    width: calc(100% + 48px);
-  }
-}
-
-@media screen and (max-width: 340px) {
-  .cover {
-    margin-left: 0;
-    width: 100%;
-  }
-}
